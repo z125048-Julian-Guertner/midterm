@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julian - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <noscript>
+    <div class="no-js-warning">
+      This website has limited aesthetic and functionality without JavaScript. Please enable JavaScript in your browser.
+    </div>
+  </noscript>
+
+<header>
+    <!--NAVIGATION -->
+    <nav role="navigation">
+       <div class="nav-left">
+        <a href="#hero" class="nav-link">Home</a>
+        <a href="#about-me" class="nav-link">About Me</a>
+        <a href="#essentials" class="nav-link">Essentials</a>
+        <a href="#contact" class="nav-link">Contact</a>
+       </div>
+       <div class="nav-right">
+        <a href="https://www.instagram.com/esistjuni/"                  target="_blank" aria-label="Instagram" class="nav-icon"><img src="icons/instagram.png" alt="Instagram-Link to EsIstJuni-Account"></a>
+        <a href="https://www.youtube.com/@EsIstJuni"                    target="_blank" aria-label="Youtube"   class="nav-icon"><img src="icons/Youtube.png" alt="Youtube-Link to EsIstJuni-Channel"></a>
+        <a href="https://www.linkedin.com/in/julian-gürtner-69195126b/" target="_blank" aria-label="LinkedIn"  class="nav-icon"><img src="icons/linkedin.png" alt="LinkedIn-Link to Julian Guertner"></a>
+        <a href="mailto:julian.guertnern@gmx.de"                         target="_blank" aria-label="Mail"      class="nav-icon"><img src="icons/mail.png" alt="Email to Julian Guertner"></a>
+       </div>
+    </nav>
+    <!--HERO-SECTION-->
+    <section id="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="videos/hero-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <!--gradient-overlay-->
+        <div class="video-gradient-overlay fade-in-on-scroll"></div>
+
+        <!-- Text infront -->
+        <div class="hero-content">
+            <h1>Hi, I'm Julian</h1>
+            <p><i>Welcome to my Portfolio!</i></p>
+        </div>
+    </section>
+</header>
+
+<!--TRANSITION -->
+<div class="transition-title-wrapper fade-in-on-scroll">
+    <div class="line"></div>
+    <div class="transition-title">
+      <h1>About Me</h1>
+    </div>
+    <div class="line"></div>
+  </div>
+
+  <!--ABOUT ME -->
+<section id="about-me">
+    <div class="about-me-grid">
+      <!-- LEFT SIDE 1fr Image -->
+        <div class="about-me-left fade-in-on-scroll">
+          <img src="images/juli_mirror.jpg" alt="portrait of myself">
+        </div>
+  
+      <!-- CENTER 1.5fr Facts -->
+      <div class="about-me-center">
+        <div class="about-me-hello fade-in-on-scroll">
+          <h2>Hello!</h2><br>
+          <ul class="fade-in-on-scroll">
+            <li>I'm <strong>Julian</strong>, 24 years old.</li><br>
+            <li>I study Game Engineering in Germany.</li><br>
+            <li>I am a passionate creative.</li><br>
+            <li>I love to work on projects that combine art and technology.</li><br>
+            <li>strong interest in:<br><br>
+            <strong> Sound Design</strong>, <strong>Music</strong>, <strong>Cinematography</strong> and <strong>Game Development</strong>.</li>
+        </ul>  
+        </div>
+        
+        <!-- Education -->
+        <div class="about-me-education fade-in-on-scroll">
+          <h3>Education</h3>
+          <div class="education-entry fade-in-on-scroll">
+            <p><strong>2021 – current:</strong> Game Engineering<br>
+            @University of Applied Sciences Kempten, Bavaria</p>
+          </div>
+          <div class="education-entry fade-in-on-scroll">
+            <p><strong>2018:</strong> German A-Levels<br>
+            @Gymnasium Burgdorf, Hannover</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- RIGHT SIDE 0.8fr Skills -->
+      <div class="about-me-right">
+        <div class="about-me-skills fade-in-on-scroll">
+          <h3>Skills</h3>
+          <ul class="skills-list fade-in-on-scroll">
+            <li><img src="icons/fruityloops.png" alt="FL Studio Icon" title="FL Studio"></li>
+            <li><img src="icons/wwise.png" alt="Wwise Icon" title="Wwise"></li>
+            <li><img src="icons/davinci.png" alt="DaVinci Resolve Icon" title="DaVinci Resolve"></li>
+            <li><img src="icons/photoshop.png" alt="Photoshop Icon" title="Photoshop"></li>
+            <li><img src="icons/premiere.png" alt="Premiere Pro Icon" title="Premiere Pro"></li>
+            <li><img src="icons/cplusplus.png" alt="C++ Icon" title="C++"></li>
+          </ul>
+        </div>
+
+        <!-- Experience -->
+        <div class="about-me-experience fade-in-on-scroll">
+            <h3>Experience</h3>
+          <ul class="experience-list fade-in-on-scroll">
+            <li>2019: FSJ: Child care<br> @Kinderhaus Regenbogen</li>
+            <li>2024: Internship<br> @Silberstern Film-Production</li>
+            <li>2025: IT-Support<br> @Battery Damage Service</li>
+          </ul>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+  <div class="transition-title-wrapper fade-in-on-scroll">
+    <div class="line"></div>
+    <div class="transition-title">
+      <h1>My Essentials</h1>
+    </div>
+    <div class="line"></div>
+  </div>
+
+<!-- ESSENTIALS () -->
+<section id="essentials">
+    <div class="essentials-grid fade-in-on-scroll">
+      
+      <!-- Kamera Illustration -->
+      <div class="essentials-image fade-in-on-scroll">
+        <img src="drawings/camera.png" alt="Selfdrawn DJI Osmo Pocket 3 Illustration">
+      </div>
+  
+      <!-- Video + Textblock (zentriert gestapelt) -->
+      <div class="video-and-text-grid fade-in-on-scroll">
+        
+        <!-- Titel -->
+        <div class="video-title">
+          <h3>DJI OSMO POCKET 3</h3>
+        </div>
+  
+        <!-- Video -->
+        <div class="essentials-video-wrapper">
+          <video class="essentials-video" autoplay muted loop playsinline>
+            <source src="videos/camera-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+  
+        <!-- Beschreibung -->
+        <div class="video-description">
+          <p>
+            This <strong>camera</strong> is always in my backpack or pocket.<br>
+            It’s small, reliable, and helps me capture <strong>cinematic moments</strong>.<br>
+            For filming Vlogs or beautiful shots, this is my <strong>go-to essential</strong>.
+          </p>
+        </div>
+  
+      </div>
+    </div>
+
+    <!-- CAROUSEL -->
+    <h4 class="carousel-heading fade-in-on-scroll">More stuff I did:</h4>
+    <div class="carousel-grid fade-in-on-scroll">
+        <div class="carousel-item">
+            <a href="https://www.youtube.com/watch?v=7XkYo_SuKgc" target="_blank" class="youtube-video">
+                <img src="https://img.youtube.com/vi/7XkYo_SuKgc/maxresdefault.jpg" alt="Youtube-Link to Vlog 01">
+                <p>EINFACH WEG | Vlog 01</p>
+              </a>
+        </div>
+        
+          <div class="carousel-item">
+            <a href="https://www.youtube.com/shorts/yd3fqlR_U5Y" target="_blank" class="youtube-video">
+              <img src="https://img.youtube.com/vi/yd3fqlR_U5Y/maxresdefault.jpg" alt="Youtube-Link to Mini-Vlog Short">
+              <p>A Day with Family - Short</p>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.youtube.com/shorts/5h1pXB0MSpc" target="_blank" class="youtube-video">
+              <img src="https://img.youtube.com/vi/5h1pXB0MSpc/maxresdefault.jpg" alt="Youtube-Link to Dji Osmo Pocket 3 Cinematic Mini-Vlog">
+              <p>Dji Osmo Pocket 3 Vlog - Short</p>
+            </a>
+      </div>
+      <!-- weitere Items -->
+    </div>
+  </section>
+
+  <div class="vertical-divider"></div>
+
+
+
+
+
+
+
+
+
+
+
+<section id="essentials">
+    <div class="essentials-grid fade-in-on-scroll">
+      
+      <!-- Video links -->
+      <div class="video-and-text-grid fade-in-on-scroll">
+        <div class="video-title">
+          <h3>SHURE SM7B</h3>
+        </div>
+  
+        <div class="essentials-video-wrapper">
+          <video class="essentials-video mirrored"autoplay muted loop playsinline>
+            <source src="videos/mic-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+  
+        <div class="video-description">
+          <p>
+            The <strong>Shure SM7B</strong> is a legend in the audio world.<br>
+            I am in love with its <strong>rich sound</strong> and <strong>versatility</strong>.<br>
+            That's why it is my go-to <strong>microphone</strong> for music and sound creation.
+          </p>
+        </div>
+      </div>
+  
+      <!-- Illustration rechts -->
+      <div class="essentials-image fade-in-on-scroll">
+        <img src="drawings/sm7b.png" alt="Selfdrawn ShureSM7B Illustration">
+      </div>
+    </div>
+
+    <!-- Karussell wie gehabt -->
+    <h4 class="carousel-heading fade-in-on-scroll">More of my Music:</h4>
+    <div class="carousel-grid fade-in-on-scroll">
+        <div class="carousel-item">
+            <a href="https://www.youtube.com/watch?v=59kU7tqoXhA" target="_blank" class="youtube-video">
+                <img src="https://img.youtube.com/vi/59kU7tqoXhA/maxresdefault.jpg" alt="Youtube-Link to Song Erfrorene Blume">
+                <p>Erfrorene Blume</p>
+              </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.youtube.com/watch?v=xuj7u6FlftY" target="_blank" class="youtube-video">
+            <img src="https://img.youtube.com/vi/xuj7u6FlftY/maxresdefault.jpg" alt="Youtube-Link to Song Smog">
+            <p>Smog</p>
+          </a>
+        </div>
+            <div class="carousel-item">
+              <a href="https://www.youtube.com/shorts/qTziN96tdnc" target="_blank" class="youtube-video">
+                <img src="https://img.youtube.com/vi/qTziN96tdnc/maxresdefault.jpg" alt="Youtube-Link to Jassin Duett TikTok">
+                <p>Jassin TikTok</p>
+              </a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="vertical-divider"></div>
+
+
+
+
+
+
+  <section id="essentials fade-in-on-scroll">
+    <div class="essentials-grid">
+      <div class="essentials-image fade-in-on-scroll">
+        <img src="drawings/macbook.png" alt="Selfdrawn MacBook Illustration"> <!--EDIT MACBOOK PIC-->
+      </div>
+  
+      <div class="video-and-text-grid fade-in-on-scroll">
+        <div class="video-title">
+          <h3>MacBook Pro</h3>
+        </div>
+  
+        <div class="essentials-video-wrapper">
+          <video class="essentials-video" autoplay muted loop playsinline>
+            <source src="videos/macbook-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+  
+        <div class="video-description">
+          <p>
+            Whether I'm editing audio, colorgrade videos, or writing code - <br>
+            this laptop is at the core of all my creative and technical work.<br>
+            It is powerful and reliable - the true centerpiece of my mobile studio.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <h4 class="carousel-heading fade-in-on-scroll">Projects carousel</h4>
+    <div class="carousel-grid fade-in-on-scroll">
+      <div class="carousel-item">
+        <a href="https://www.hs-kempten.de/fakultaet-informatik/aktuelles/artikel/project-greenhouse-2912" target="_blank">
+          <img src="https://www.hs-kempten.de/fileadmin/_processed_/e/7/csm_PosterDesign_137a83c3e6.png" alt="Website-Link to Project Greenhouse">
+          <p>Project greenhouse</p>
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="https://www.hs-kempten.de/fakultaet-informatik/aktuelles/artikel/soundgames-vol-2-2362" target="_blank">
+          <img src="https://www.hs-kempten.de/fileadmin/_processed_/f/4/csm_soundgames2-thumbnail_7f77a034b2.png" alt="Website-Link to Sound Design project">
+          <p>Sound desgin Project</p>
+        </a>
+      </div>
+      <div class="carousel-item">
+        <a href="https://www.hs-kempten.de/fakultaet-informatik/aktuelles/artikel/cave-caster-2039" target="_blank">
+          <img src="https://www.hs-kempten.de/fileadmin/_processed_/b/1/csm_Headline_5e73114a1a.jpg" alt="Website-Link to CaveCaster project">
+          <p>Cave Caster</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+ <!--TRANSITION -->
+ <div class="transition-title-wrapper fade-in-on-scroll">
+  <div class="transition-title">
+  </div>
+</div>
+
+  <!--TRANSITION -->
+<div class="transition-title-wrapper fade-in-on-scroll">
+  <div class="line"></div>
+  <div class="transition-title">
+    <h1>Contact Me</h1>
+  </div>
+  <div class="line"></div>
+</div>
+  
+  <!--CONTACT -->
+  <section id="contact">
+    <div class="contact-grid fade-in-on-scroll">
+      <div class="contact-question fade-in-on-scroll">
+        <img src="drawings/interested.png" alt="Arrow Image pointing to letter image">
+      </div>
+      <div class="contact-link-image fade-in-on-scroll">
+        <a href="mailto:julian.guertnern@gmx.de" target="_blank" aria-label="Mail" class="nav-icon">
+          <img src="drawings/letter.png" alt="Email to Julian Guertner">
+        </a>
+      </div>
+    </div>
+  </section>
+
+ <!--Java-Script at the end, so HTML gets loaded faster-->
+<script src="script.js"></script>
+
+<footer>
+  <div class = "footer">
+    <p>© 2025 Julian Gürtner - Mail: julian.guertner@gmx.de - Instagram: @EsistJuni - Linkedin: Julian Guertner - Youtube: EsistJuni</p>
+  </div>
+</footer>
+</body>
+</html>
